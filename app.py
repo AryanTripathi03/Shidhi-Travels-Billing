@@ -43,7 +43,7 @@ def increment_invoice_number(current_no):
 try:
     st.sidebar.image("assets/logo.png", width=150)
 except:
-    st.sidebar.write("PRIYANSHU TOURS & TRAVELS")
+    st.sidebar.write("SHIDHI TOURS & TRAVELS")
     
 invoice_type = st.sidebar.radio("Select Invoice Type", ["Outstation Trip", "Local Trip"])
 
